@@ -1,0 +1,75 @@
+html, body{
+    height: 100%;
+   
+}
+.masthead-heading,
+.masthead-intro {
+  text-align: center;
+    
+}
+
+
+.container-top {
+ 
+  padding: 6em 0;
+  background-image: url(../image/me.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top: solid 1em #FFCF33;
+  
+  
+}
+
+.masthead-intro {
+    
+    margin-bottom: 0.1em;
+    color: #f2f2f2;
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 2em;
+}
+
+.masthead-heading {
+    /* Layout Declarations */
+    color: #F1C863;
+    margin-top: -0.2em;
+    /* Typography Declarations */
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    font-size: 6em;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+}
+
+.about {
+    
+   
+    border-radius: 20px;
+    line-height:30px;
+    background-color: khaki;
+    width: 50em;
+    padding: 15px;
+    margin: 30px auto;
+    
+}
+
+.about p {
+    padding: 10px;
+    letter-spacing: 0.05em;
+    
+}
+
+.about h1 {
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+
+@media only screen and (max-width: 500px) {
+    .masthead {
+        padding: 3em 0;
+    }
+    .masthead-heading {
+        font-size: 3em;
+    }
+    .

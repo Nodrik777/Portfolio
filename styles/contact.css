@@ -1,0 +1,77 @@
+html, body {
+  height: 100%;
+  
+}
+
+.bg-img {
+  /* The image used */
+  background-image: url(../image/contact.jpg);
+  min-height: 700px;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  
+}
+
+/* Add styles to the form container */
+.container {
+  position: absolute;
+  min-height: 100%;
+  right: 350px;
+  max-width: 400px;
+  padding: 16px;
+  background-color: white;
+  border-radius: 15px;
+   }
+
+/* Full-width input fields */
+input[type=text], textarea{
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 22px 0;
+  border: 0.5px solid black;
+  border-radius: 15px;
+  background: #f2f2f2;
+}
+
+
+
+input[type=text]:focus, textarea:focus {
+  background-color: #eee;
+  outline: none;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: grey;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+    border-radius: 15px;
+  cursor: pointer;
+  width: 200px;
+  opacity: 0.9;
+   float: right;
+}
+
+.btn:hover {
+  opacity: 1;
+    background-color: darkgray;
+}
+
+@media (max-width: 952px){
+  
+}
+@media (max-width: 858px){
+    .bg-img {
+        background-image: url();
+    }
+    .container {
+        position: relative;
+        right:50px;
+        left: 100px;
+        
+    }
+    
+ 
